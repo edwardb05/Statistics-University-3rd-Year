@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.tsa.tsatools as ts
 
-df = pd.read_csv('Tutorial 1/faithful.csv')
+df = pd.read_csv('Computing/faithful.csv')
 n = len(df)
 print(n)
 
