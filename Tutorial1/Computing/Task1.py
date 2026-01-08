@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('faithful.csv')
+df = pd.read_csv('Computing/faithful.csv')
 waiting = df["waiting"]
 mean = np.mean(waiting)
 sns.boxplot(y=df['waiting'], x = df['day'], whis= 2) #Plots box plot and whis changes max len of whiskers it is that value times the IQR

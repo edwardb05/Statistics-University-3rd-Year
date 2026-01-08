@@ -6,7 +6,7 @@ import seaborn as sns
 import statsmodels.tsa.tsatools as ts
 from sklearn.cluster import KMeans
 
-df = pd.read_csv('Tutorial 1/faithful.csv')
+df = pd.read_csv('Tutorial 1/Computing/faithful.csv')
 n = len(df)
 K=2 #Number of clusters
 
